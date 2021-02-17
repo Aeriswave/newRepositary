@@ -144,8 +144,8 @@
 >**./GOLD** Условия и результат оплаты  
 >**./WARE** Решение  
 
-### 3.4. Ветви  
-#### Правила присвоения имен ветвям:  
+### 3.4. Ветви и метки  
+#### Правила присвоения имен ветвям и меткам:  
 >username.solution.version.stage.priority (для основного функционала решения)  
 >username.solution.pack.version.stage.priority  
 >username.module.version.stage.priority (для основного функционала модуля)  
