@@ -201,15 +201,19 @@
 
 ### 3.4. Ветви (branch), версии (version), этапы (stage) и метки (tag)  
 #### Правила присвоения имен ветвям и меткам:  
-(1) Подпись (sign) разработчика  
-(2) Название решения (solution)  
-(3) Название модуля (module)  
-(4) Расширенное обозначение функционала (pack) решения или модуля  
+(0) Название решения (solution)  
+(1) Название модуля (module)   
+(2) Номер версии решения/модуля (version)  
+(3) Расширенное обозначение функционала (pack) решения или модуля = опционально  
+(4) Стадия разработки (stage) = опционально  
+(5) Приоритет разработки (priority) = опционально   
+(6) Подпись (sign) разработчика   
 Примеры назначения имен ветвям и меткам:  
->sign.solution.version.stage.priority (для основного функционала решения)  
->sign.solution.pack.version.stage.priority  
->sign.module.version.stage.priority (для основного функционала модуля)  
->sign.module.pack.version.stage.priority  
+> solution.version.stage.priority.sign (для основного функционала решения)  
+> solution.pack.version.stage.priority.sign   
+> module.version.stage.priority.sign (для основного функционала модуля)  
+> module.pack.version.stage.priority.sign     
+> 
 
 #### Обозначение номера версии решений и модулей  
 На основе [семантической нумерации версий](https://semver.org/lang/ru/)  
