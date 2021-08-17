@@ -1,7 +1,7 @@
 ### 3.5. Обозначение номера версии
 На основе [семантической нумерации версий](https://semver.org/lang/ru/)  
->solution.pack.version  
 >system.pack.version  
+>solution.pack.version  
 >product.pack.version  
 >module.pack.version  
 >system.pack.version  
